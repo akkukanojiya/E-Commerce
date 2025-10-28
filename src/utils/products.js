@@ -18,7 +18,7 @@ import phone03 from "../Images/phone-03.png";
 import phone04 from "../Images/phone-04.jpg";
 import phone05 from "../Images/phone-05.jpg";
 import phone06 from "../Images/phone-06.jpg";
-import phone08 from "../Images/phone-08.png";
+import phone08 from "../Images/phone-08.jpg";
 
 import watch01 from "../Images/watch-01.jpg";
 import watch02 from "../Images/watch-02.jpg";
@@ -35,57 +35,59 @@ import watchSlide from "../Images/watch-07.png";
 
 export const SliderData = [
   {
-      id: 1,
-      title: "50% Off For Your First Shopping",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
-      cover: sofaSlide,
+    id: 1,
+    title: "50% Off For Your First Shopping",
+    desc: "Shop the latest furniture and save big on your first order.",
+    cover: sofaSlide,
   },
   {
-      id: 2,
-      title: "50% Off For Your First Shopping",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
-      cover: phone08,
+    id: 2,
+    title: "50% Off For Your First Shopping",
+    desc: "Grab amazing deals on smartphones and accessories.",
+    cover: phone08,
   },
   {
-      id: 3,
-      title: "50% Off For Your First Shopping",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
-      cover: wireless01,
+    id: 3,
+    title: "50% Off For Your First Shopping",
+    desc: "Experience quality wireless gadgets at unbeatable prices.",
+    cover: wireless01,
   },
   {
-      id: 4,
-      title: "50% Off For Your First Shopping",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis lobortis consequat eu, quam etiam at quis ut convallis.",
-      cover: watchSlide,
+    id: 4,
+    title: "50% Off For Your First Shopping",
+    desc: "Stylish watches with exclusive discounts for new buyers.",
+    cover: watchSlide,
   },
 ];
 
 export const serviceData = [
   {
     icon: <ion-icon name="car"></ion-icon>,
-    title: "Free Shipping",
-    subtitle: "Lorem ipsum dolor sit amet.",
+    title: "Free & Fast Shipping",
+    subtitle: "Enjoy free delivery on all orders without any hidden charges.",
     bg: "#fdefe6",
   },
   {
     icon: <ion-icon name="card"></ion-icon>,
-    title: "Safe Payment",
-    subtitle: "Lorem ipsum dolor sit amet.",
+    title: "Secure Payment",
+    subtitle: "Your transactions are protected with top-grade encryption.",
     bg: "#ceebe9",
   },
   {
     icon: <ion-icon name="shield-half-outline"></ion-icon>,
-    title: "Secure Payment",
-    subtitle: "Lorem ipsum dolor sit amet.",
+    title: "Trusted Quality",
+    subtitle: "We ensure every product meets high safety and quality standards.",
     bg: "#e2f2b2",
   },
   {
     icon: <ion-icon name="headset"></ion-icon>,
-    title: " Back Guarantee",
-    subtitle: "Lorem ipsum dolor sit amet.",
+    title: "24/7 Support",
+    subtitle: "Need help? Our friendly team is here for you anytime.",
     bg: "#d6e5fb",
   },
 ];
+
+
 
 export const discoutProducts = [
   {
@@ -94,7 +96,7 @@ export const discoutProducts = [
     imgUrl: productImg01,
     category: "sofa",
     price: 193,
-    discount:30,
+    discount: 30,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -113,7 +115,7 @@ export const discoutProducts = [
     imgUrl: productImg02,
     category: "sofa",
     price: 253,
-    discount:20,
+    discount: 20,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -136,7 +138,7 @@ export const discoutProducts = [
     imgUrl: productImg08,
     category: "chair",
     price: 89,
-    discount:15,
+    discount: 15,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -159,7 +161,7 @@ export const discoutProducts = [
     imgUrl: productImg09,
     category: "chair",
     price: 112,
-    discount:35,
+    discount: 35,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -182,7 +184,7 @@ export const discoutProducts = [
     imgUrl: phone03,
     category: "mobile",
     price: 599,
-    discount:10,
+    discount: 10,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -205,7 +207,7 @@ export const discoutProducts = [
     imgUrl: phone04,
     category: "mobile",
     price: 799,
-    discount:5,
+    discount: 5,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
