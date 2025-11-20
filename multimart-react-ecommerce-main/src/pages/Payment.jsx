@@ -33,7 +33,7 @@ const Payment = () => {
 
     try {
       // Create order from backend
-      const { data } = await axios.post("http://localhost:5000//payment/create", {
+      const { data } = await axios.post("http://localhost:5000/payment/create", {
         amount: totalPrice,
       });
 

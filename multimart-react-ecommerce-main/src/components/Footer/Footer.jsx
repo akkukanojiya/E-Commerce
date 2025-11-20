@@ -38,7 +38,7 @@ const Footer = () => {
           <Col md={3} sm={6} className="box">
             <h2 className="fw-semibold mb-3">About Us</h2>
             <ul className="list-unstyled">
-              <li><a href="#" className="footer-link">Careers</a></li>
+               
               <li><a href="#" className="footer-link">Our Stores</a></li>
               <li><a href="#" className="footer-link">Our Mission</a></li>
               <li><a href="#" className="footer-link">Terms & Conditions</a></li>
